@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a810fbd73a.js" crossorigin="anonymous"></script>
+  <style>
+    .foto-perfil{
+      border-radius: 50%;
+    }
+    .corPrimaria{
+      background-color: #1980d4;
+    }
+    .corSecundaria {
+      background-color: #203a81;
+    }
+    p {
+      font-family:'Courier New', Courier, monospace;
+      color: black !important;
+    }
+    .icones {
+      padding-left: 5px;
+    }
+
+    .titulosBrancos{
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: white;
+    }
+    .titulosAzuis{
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #5748e2;
+    }
+    .textoBranco{
+      color: white !important;
+    }
+    .jumbotron{
+      margin-bottom: 0px;
+    }
+    .textoFooter {
+      margin: 8px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    html{
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="corSecundaria navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand textoBranco" href="#">Thadeu Arruda</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link textoBranco" href="#contato">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="jumbotron text-center corPrimaria">
+    <div class="container">
+      <img class="foto-perfil"
+        src="images/thadeu2.jpg"
+        alt="" width="170"> 
+      <h1 class="jumbotron-heading textoBranco">Thadeu Arruda</h1>
+      <p class="lead textoBranco">Front-End Developer - Estudante de Analise e Desenvolvimento de Sistemas - Criador de
+        conteúdo</p>
+      <p>
+        <a href="#contato" class="btn btn-dark my-2">Contato</a>
+      </p>
+      <a href="https://www.linkedin.com/in/thadeuarruda/"><i class=" textoBranco icones fab fa-linkedin"></i></a>
+      <a href="https://github.com/thadeufjb"><i class=" textoBranco icones fab fa-github"></i></a>
+    </div>
+  </section>
+  <div class="album py-5 bg-light" id="projetos">
+    <div class="container">
+    <h2 class="jumbotron-heading text-center titulosAzuis">Projetos</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]"
+              src="images/calculadora vanilla foto.jpg"
+              data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <p class="card-text">O mais recente e até então, o projeto mais bacana que aprendi a fazer. Uma
+                simplicidade e uma beleza incrível com o efeito vanilla nessa calculadora. Ps: Fãs de Harry Potter
+                conhecem bem esse fundo. :p</p>
+              <ul>
+                <li>HTML 5</li>
+                <li>CSS 3</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://thadeufjb.github.io/calculator-potter/"><button type="button"
+                      class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+
+                  <a href="https://github.com/thadeufjb/calculator-potter"><button type="button" class="btn btn-sm btn-outline-primary">Código</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]"
+              src="images/Login espacial.jpg"
+              data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <p class="card-text">Uma tela de login bem básica com um avatar de astronauta. O maior intuito foi no
+                aprendizado e logo após, sua personalização.</p>
+              <ul>
+                <li>HTML 5</li>
+                <li>CSS 3</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://thadeufjb.github.io/login-Space/"><button type="button"
+                      class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+
+                  <a href="https://github.com/thadeufjb/login-Space"><button type="button" class="btn btn-sm btn-outline-primary">Código</button></a>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]"
+              src="images/Urna eletrônica.jpg"
+              data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <div class="card-body">
+              <p class="card-text">Uma simples urna eletrônica feita em HTML e CSS com conclusão ainda a ser feita no
+                JavaScript. Um dos primeiros projetos aprendidos.</p>
+              <ul>
+                <li>HTML 5</li>
+                <li>CSS 3</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://thadeufjb.github.io/Projeto-Urna-eletronica/"><button type="button"
+                      class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+
+                  <a href="https://github.com/thadeufjb/Projeto-Urna-eletronica"><button type="button" class="btn btn-sm btn-outline-primary">Código</button></a>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sobre mim -->
+  <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+    <div class="container">
+      <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+      <p class="lead textoBranco">Muito prazer, me chamo Thadeu Arruda, desenvolvedor Front-End. Sou graduando em Análise e Desenvolvimento de Sistemas, com cursos extra currículares e pequenos projetos de minha autoria. Apaixonado por games e pelos grandes mistérios que a tecnologia pode nos proporcionar, procuro sempre me aprofundar em mais conhecimentos e trocar experiências com colegas que atuam na área. Lidar com público, trabalhar em equipe, e uma dedicação incansável são o conjunto que me fazem ser a cada dia, um melhor desenvolvedor. </p>
+    </div>
+  </section>
+  <!-- Contato -->
+  <section class="" id="contato">
+    <div>
+      <div class="container-fluid">
+        <h3 style="padding-top: 60px;" class="text-center titulosAzuis">Disponível para oportunidades</h3>
+        <a href="mailto:thadeufjb@hotmail.com"><h4 style="padding-bottom: 60px; margin-bottom: 0px;" class="text-center">thadeufjb@hotmail.com</h4></a>
+  
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="text-center corSecundaria textoFooter">
+    <p class="textoBranco">Copyright 2021 Meu Portfólio</p>
+  </footer>
+</body>
+
+</html>
